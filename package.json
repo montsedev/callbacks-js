@@ -1,7 +1,22 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
+  "name": "callback",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Montserrat Vazquez Manrique",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Montserrat Vazquez Manrique",
+      "email": "montsevm.03@gmail.com",
+      "url": "https://github.com/montsedev"
+    }
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "callback": "node src/callback/challenge.js"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.0",
+    "xmlhttprequest": "1.8.0"
+  },
+  "type": "module"
 }
